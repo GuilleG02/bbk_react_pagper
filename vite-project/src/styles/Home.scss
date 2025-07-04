@@ -1,0 +1,42 @@
+$primary-color: #4a90e2;
+$font-color: #fff;
+
+.home-container {
+  background-color: $primary-color;
+  color: $font-color;
+  padding: 2rem;
+  text-align: center;
+  border-radius: 1rem;
+  width: 100%;
+  max-width: 600px;
+  margin: auto; // <- esto lo centra horizontalmente
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+
+  p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+  }
+
+  .home-button {
+    background-color: $primary-color;
+    color: $font-color;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+
+    &:hover {
+      background-color: $primary-color;
+    }
+  }
+}
